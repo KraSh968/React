@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-image: url(../img/karta_sputnik_gonkong_262519_1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+    width: 800px;
+    color: white;
+}
+
+.post {
+    padding: 15px;
+    margin-top: 15px;
+    /*border: 3px solid rgb(119, 0, 255);*/
+    background: rgba(35, 34, 34, 0.8);
+    border-radius: 10px;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.postBtns.MyButton{
+    margin-top: 100px;
+}
+
+.postContent {
+    display: flex;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.postInfo {
+    font-family: Arial;
+}
+
+.postInfo strong {
+    font-family: Arial;
+    font-size: 25px;
+}
+
+.comment {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    min-width: 700px;
+    background: rgba(35, 34, 34);
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.coommentbtns {
+    color: white;
+    background: rgba(250, 194, 30, 0);
+    border: 0px;
+    cursor: pointer;
+}
+
